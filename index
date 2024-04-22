@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Datos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="fade-in">
+        <h1>KEWON</h1>
+    </header>
+    <nav class="fade-in">
+        <ul>
+            <li><a href="#graficos">Gráficos</a></li>
+            <li><a href="#analisis">Análisis</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">
+                    <img src="https://th.bing.com/th/id/OIG4.nQg.mby4UwZ964HqEXrS?pid=ImgGn" alt="Menú" class="menu-icon">
+                </a>
+                <div class="dropdown-content">
+                    <a href="#">Cuenta</a>
+                    <a href="#">¿Alguna duda?</a>
+                    <a href="#">¿Algún problema?</a>
+                    <a href="#">Contacte con un administrador</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <main class="fade-in">
+        <section id="informacion">
+            <h2>Bienvenido de vuelta Gabriel Ludwig García Perez</h2>
+            <p>A continuación podrás observar dos gráficos, uno donde se mencione a los clientes de esta última semana y la venta de su emprendimiento de venta de libros junto a un analisis de parte de un administrador junto a una recomendación. A cualquier duda contáctese con un administrador en la imagen de "KEWON".</p>
+        </section>
+        <section id="graficos">
+            <h2>Gráfica de clientes</h2>
+            <canvas id="myChart"></canvas>
+          <h2>Ventas</h2>
+            <canvas id="ventasChart"></canvas>
+        </section>
+        <section id="cosas-clientes">
+            <h2>Cosas que elevaron sus clientes</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="https://weezevent.com/wp-content/uploads/2022/04/08110352/moyano-frente-vf.jpg" alt="Imagen 1" class="gallery-image">
+                    <div class="image-popup">
+                        <span class="close-popup">&times;</span>
+                        <textarea placeholder="Escribe tu comentario aquí..."></textarea>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://planetadelibrospe0.cdnstatics.com/usuaris/libros/fotos/330/m_libros/portada_pida-la-palabra_alan-garcia_202102111707.png" alt="Imagen 2" class="gallery-image">
+                    <div class="image-popup">
+                        <span class="close-popup">&times;</span>
+                        <textarea placeholder="Escribe tu comentario aquí..."></textarea>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://elmontonero.pe/upload/uploads_images/columna_giovanna_45.jpg" alt="Imagen 3" class="gallery-image">
+                    <div class="image-popup">
+                        <span class="close-popup">&times;</span>
+                        <textarea placeholder="Escribe tu comentario aquí..."></textarea>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="https://th.bing.com/th/id/OIG2.DV0OGGbghp7nzPW0ZPx2?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="Imagen 4" class="gallery-image">
+                    <div class="image-popup">
+                        <span class="close-popup">&times;</span>
+                        <textarea placeholder="Escribe tu comentario aquí..."></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="analisis">
+            <h2>Análisis</h2>
+            <p>Estimado Gabriel, su negocio tuvo un promedio de venta de 12.5 por semana, lo cual es bastante bajo por la cantidad de clientes que visitan su negocio diariamente, es por ello que destacamos los mejores momentos de su negocio en esta semana, por ejemplo, en la primera imagen la idea que mencionamos de crear una feria de libros pequeña al frente de su local. La salida de un libro polémico el cual atrajo clientes, el momento donde hizo oratoria delante de su negocio para atraer posibles compradores y como resultó de efectiva la feria de libros.
+<hr>
+Damos como recomendación aumentar la intensidad de sus discursos y añadir libros mas clásicos para el deguste de todos. Si requiere mayor información no dude en consultar a un administrador o dejar sus dudas, con gusto le responderemos.</p>
+        </section>
+    </main>
+    <footer class="fade-in">
+        <p>Derechos de autor © 2024 KEWON</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
